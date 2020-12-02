@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     width: 100%;
+    min-height: 100%;
 }
 
 main {
@@ -116,4 +117,21 @@ h1 {
 
 .twitter:hover {
     background-image: url("../images/logo-twitter-pink.svg");
+}
+
+@media only screen and (min-width:376px) {
+    #container {
+        background: url("../images/bg-desktop.svg");
+    }
+    .mockups {
+        width: 70%;
+        height: auto;
+    }
+    .build {
+        width: 80%;
+    }
+    .images {
+        width: 100%;
+        text-align: center;
+    }
 }
