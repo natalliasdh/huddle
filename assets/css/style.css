@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #684BB1;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    background: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mockups {
+    width: 296px;
+}
+
+.build {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    width: 120px;
+    margin: 38px auto 60px 40px;
+}
+
+.images {
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.register {
+    margin-top: 34px;
+    margin-bottom: 64px;
+    padding: 11px 75px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #684BB1;
+    border: none;
+    font-size: 12px;
+}
+
+.register:hover {
+    background-color: #FF52C1;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.huddle {
+    line-height: 24px;
+}
+
+.social {
+    margin-bottom: 40px;
+}
+
+.social div {
+    height: 19px;
+    width: 19px;
+    padding: 5px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.social div:hover {
+    border-color: #FF52C1;
+}
+
+.facebook {
+    background-image: url("../images/logo-facebook-small.svg");
+}
+
+.facebook:hover {
+    background-image: url("../images/logo-facebook-pink.svg");
+}
+
+.instagram {
+    background-image: url("../images/logo-instagram-small.svg");
+}
+
+.instagram:hover {
+    background-image: url("../images/logo-instagram-pink.svg");
+}
+
+.twitter {
+    background-image: url("../images/logo-twitter-small.svg");
+}
+
+.twitter:hover {
+    background-image: url("../images/logo-twitter-pink.svg");
+}
